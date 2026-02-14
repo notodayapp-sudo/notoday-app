@@ -9,6 +9,15 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZPFWX1C9R1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-ZPFWX1C9R1');
+    </script>
 
 </head>
 
@@ -58,7 +67,7 @@
                             <input type="email" name="email" placeholder="Seu melhor e-mail" required>
 
                             <input type="hidden" name="_captcha" value="false">
-                            <input type="hidden" name="_next" value="http://127.0.0.1:5500/"> <!-- troque isso pelo endereco do versel-->
+                            <input type="hidden" name="_next" value="https://notodayapp.vercel.app/">
 
                             <button type="submit">Quero entrar na lista de espera</button>
 
